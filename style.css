@@ -1,0 +1,93 @@
+.mySidenav{
+    padding-top: -100px;
+}
+nav{
+    background-color: #043761;
+}
+.navbar-nav{
+    margin-top: -50px;
+    color: white;
+}
+/* .glyphiconNav{
+    font-size: 15px;
+} */
+.menuHeadText{
+    margin-top: -10px;
+    color: #969494;
+}
+.homeMenu{
+    margin-top: 5px;
+}
+.firstHead{
+    color: white;
+    margin-left: 500px;
+}
+.dropdown{
+    padding-top:6px;
+    padding-right:3px;
+    float: right;
+}
+img {
+    border-radius: 50%;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    background-color: #DBDEE0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;	
+}
+.sidenav a {
+    padding: 8px 0 8px 9px;
+    text-decoration: none;
+    font-size: 15px;
+    color:black;
+    display: block;
+}
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.le{
+    float:right;
+    padding-top:9px;
+    padding-right:30px;
+}
+.card-body{
+    background-color: #DBDEE0;
+    border-radius: 3px;
+    padding: 9px;
+}
+/* .pie{
+    border: lightgrey;
+    background-color: lightgrey;
+} */
+.pieChart {
+    margin-right: -100px;
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: conic-gradient(
+        rgb(233, 19, 19) 10deg, 
+        rgb(2, 51, 14) 0 350deg, 
+        rgb(250, 181, 54) 10deg)
+}
+
+.chart {
+    float: right;
+    margin-right: 300px;
+    margin-top: 30px;
+}
+.pieText{
+    margin-left: 800px;
+}
+
